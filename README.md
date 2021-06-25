@@ -1,2 +1,10 @@
 # pleb-base
-My first project. Not sure where this is going, but it should be fun.
+
+<include #iostream>
+
+int main()
+{
+	string name;
+	std::cout << "What is your name?\n";
+	std::cin >> name;
+	std::cout << "Hi " << name;
